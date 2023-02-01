@@ -9,6 +9,8 @@ const quicksort_function = require("./quicksort");
 
 //Second Merge Sort
 const merge_sort_function = require("./merge_sort");
-merge_sort_function.mergeSort(arr, 0, n);
+//merge_sort_function.mergeSort(arr, 0, n);
 
+const selectionSort = require("./selectionSort");
+selectionSort.selectionSort(arr);
 console.log(arr)
