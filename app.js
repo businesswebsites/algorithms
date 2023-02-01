@@ -12,5 +12,8 @@ const merge_sort_function = require("./merge_sort");
 //merge_sort_function.mergeSort(arr, 0, n);
 
 const selectionSort = require("./selectionSort");
-selectionSort.selectionSort(arr);
+//selectionSort.selectionSort(arr);
+
+const heapSort = require("./heapSort")
+heapSort.heapSort(arr);
 console.log(arr)
